@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Generation</title>
+    <style>
+        body {
+            background-color: #f1f1f1;
+            font-family: Arial, Helvetica, sans-serif;
+             margin-top: 50px;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 28px;
+        }
+        h3 {
+            color: #333;
+        }
+        h4 {
+            color: #333;
+        }
+        img {
+            width: 30%;
+            height: 30%;
+            border-radius: 50%;
+        }
+        #gender , #location , #name {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Random User</h1>
+        <h3>Name: <span id="name"></span></h3>
+        <h3>Gender: <span id="gender"></span></h3>
+        <h4>Location: <span id="location"></span></h4>
+        <img id="image" alt="image">
+    <script src="../js/random-user.js"></script>
+</body>
+</html>
